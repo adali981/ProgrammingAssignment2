@@ -1,7 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
+# Computing the inverse of a square matrix defining two functions that permit to 
+# cache values. This permit to save computational time.
 
-## Write a short comment describing this function
+# ## This function permit to create a list of four sub-functions. 
+# set = define the matrix
+# get = print the matrix
+# setinv = store the inverse matrix to cache
+# getinv = print the inverse matrix 
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
@@ -18,7 +22,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This funtion check the cache for inverse matrix. If the inverse matrix is present, print 
+# print the values. If is not available it calculate a new inverse matrix, cache the resul
+# and print.
+
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
